@@ -24,3 +24,17 @@ body {
   background-color: forestgreen;
   height: 26.8vh;
 }
+
+.road-bounds {
+  background-color: #666;
+  height: 1.6vh;
+}
+
+.road {
+  background-color: #444;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
