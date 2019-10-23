@@ -63,10 +63,10 @@ img {
 }
 
 @keyframes drive {
-  from {
+  0% {
     transform: translateX(-25vw);
   }
-  to {
+  100% {
     transform: translateX(130vw);
   }
 }
