@@ -49,3 +49,16 @@ img {
   width: auto;
   margin: 1%;
 }
+
+.mario {
+  animation: drive 3s linear 2s infinite;
+}
+
+@keyframes drive {
+  from {
+    transform: translateX(-200);
+  }
+  to {
+    transform: translateX(300px);
+  }
+}
