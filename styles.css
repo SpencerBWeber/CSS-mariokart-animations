@@ -19,3 +19,8 @@ body {
   justify-content: space-between;
   align-items: flex-end;
 }
+
+.grass {
+  background-color: forestgreen;
+  height: 26.8vh;
+}
