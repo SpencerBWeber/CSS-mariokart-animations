@@ -51,14 +51,18 @@ img {
 }
 
 .mario {
-  animation: drive 3s linear 2s infinite;
+  animation: drive 4s linear infinite;
+}
+
+.luigi {
+  animation: drive 5s linear infinite;
 }
 
 @keyframes drive {
   from {
-    transform: translateX(-200);
+    transform: translateX(-25vw);
   }
   to {
-    transform: translateX(300px);
+    transform: translateX(130vw);
   }
 }
