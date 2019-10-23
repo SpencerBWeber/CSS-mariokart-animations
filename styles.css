@@ -58,11 +58,24 @@ img {
   animation: drive 5s linear infinite;
 }
 
+.cloud {
+  animation: wind 10s linear infinite;
+}
+
 @keyframes drive {
   from {
     transform: translateX(-25vw);
   }
   to {
     transform: translateX(130vw);
+  }
+}
+
+@keyframes wind {
+  from {
+    transform: translateX(35vw);
+  }
+  to {
+    transform: translateX(-130vw);
   }
 }
