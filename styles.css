@@ -38,3 +38,14 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 }
+
+.line {
+  width: 100vw;
+  border-bottom: 1.4vh dashed white;
+}
+
+img {
+  height: 35%;
+  width: auto;
+  margin: 1%;
+}
