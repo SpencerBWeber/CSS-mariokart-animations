@@ -24,6 +24,33 @@ audio {
   align-items: flex-end;
 }
 
+button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+  width: 100vw;
+  height: 20vh;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.icon-play3 {
+  font-size: 8em;
+  color: rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in-out;
+}
+
+.icon-play3:hover {
+  color: rgb(0, 0, 0);
+}
+
+.icon-play3:before {
+  content: "\ea1c";
+}
+
 .grass {
   background-color: forestgreen;
   height: 26.8vh;
