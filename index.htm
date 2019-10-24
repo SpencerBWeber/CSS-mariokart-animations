@@ -4,17 +4,28 @@
     <meta charset="UTF-8" />
     <title>CSS Animations</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://i.icomoon.io/public/temp/396bef3579/UntitledProject/style.css"
+    />
   </head>
   <body>
-    <audio autoplay="" loop="">
-      <source
-        src="./Audio-Downloader-Prime--MyBrowserAddon.mp3"
-        type="audio/mpeg"
-      />
-    </audio>
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+    <audio
+      autoplay=""
+      loop=""
+      id="audio"
+      src="./music/Audio-Downloader-Prime--MyBrowserAddon.mp3"
+    ></audio>
     <div class="wrapper">
       <div class="sky">
         <img class="angry-sun" src="New Piskel-1.png(1).png" />
+        <button onclick="play()"><span class="icon-play3"></span></button>
         <img class="cloud" src="cloud.png" />
       </div>
       <div class="grass"></div>
