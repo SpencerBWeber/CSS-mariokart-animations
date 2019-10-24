@@ -106,33 +106,3 @@ img {
     transform: translateX(35vw);
   }
 }
-
-@keyframes sun {
-  0% {
-    transform: translateX(35vw);
-  }
-
-  40% {
-    transform: translateX(-20vw);
-  }
-
-  45% {
-    transform: translate(-30vw, 40vh);
-  }
-
-  50% {
-    transform: translate(-40vw, 80vh);
-  }
-
-  55% {
-    transform: translate(-50vw, 40vh);
-  }
-
-  60% {
-    transform: translate(-60vw, 0vh);
-  }
-
-  100% {
-    transform: translateX(-130vw);
-  }
-}
